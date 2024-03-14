@@ -67,4 +67,31 @@ for(let i in student){
 }
 
 
+// strings 
+// strings are immutable
 
+
+// in js template literals or string formatting can also be done
+// name = "mark"
+// console.log("his name is ",${name})
+// console.log(`his name is ${name}`)
+// used for string interpolation // basically a placeholders 
+
+// string built in methods
+// all of the strings will never change the original string and returns the modified string
+var new_string_1 = "this is a string"
+console.log(new_string.toUpperCase()) // toUpperCase returns a modified string as output
+
+
+
+// trmi :: nice  method
+// removes the white spaces in the edges
+
+var trimmer = "      this a trimmer                 "
+console.log(trimmer)
+console.log(trimmer.trim())
+
+// slice str.slice
+// str_1.concat(str_2)
+// str.replace(search_val ,new_val)
+// str.charAt(index)
