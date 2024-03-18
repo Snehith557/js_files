@@ -94,4 +94,4 @@ console.log(trimmer.trim())
 // slice str.slice
 // str_1.concat(str_2)
 // str.replace(search_val ,new_val)
-// str.charAt(index)
+// str.charAt(index )

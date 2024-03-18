@@ -1,0 +1,4 @@
+python -m robot -d log_Folder --listener Lib/Common/util/Listener.py --listener RobotListener;C:\zybot\Config_RobotListener.yaml;-d;213405225E0329   -v setUpName:CH2R4_FTM_2 -v DEVICE_ID:213405225E0329 -v SnifferSupport:AX   -t FTM_TC_017 -t FTM_TC_039 -t FTM_TC_047 -t FTM_TC_178 -t FTM_TC_179 -t FTM_TC_180 -t FTM_TC_100 -t FTM_TC_108 -t FTM_TC_107 -t FTM_TC_113 -t FTM_TC_139 -t FTM_TC_140 -t FTM_TC_141 -t FTM_TC_142 -t FTM_TC_143 -t FTM_TC_217 -t FTM_TC_242 -t FTM_TC_024 -t FTM_TC_105 -t FTM_TC_106 -t FTM_TC_127 -t FTM_TC_128 -t FTM_TC_129 -t FTM_TC_130 -t FTM_TC_131 -t FTM_TC_144 -t FTM_TC_145 --dryrun -L debug TS\FTM\FTMETC.robot
+
+
+python -m robot -d log_folder --listener Lib/Common/util/Listener.py -v setUpName:C3R1S1Aax -v DEVICE_ID:213405225E0329 -v SnifferSupport:AX   -t FTM_TC_100  -t FTM_TC_107   TS\FTM\FTMETC.robot
