@@ -23,3 +23,50 @@
 // console.dir(document.body.childNodes) gives all the elements that are present in the body field
 
 // console.log(document.getelementby(id class tag others))
+
+
+//  getting an element by id class and tag
+// element by id :- document.getElementbyid("id_name")
+// element by class :- document.getElementbyClassName("class_name")
+// element by tag :- document.getElementByTagName("tag_name") say p
+
+
+// NOTE ID CAN BE possed by only one element
+// but a multiple elements/tags can be the part of a single class
+
+console.log("printing the class element")
+var class_element = document.getElementsByClassName("java_script_class")
+// html collection contains an array of elements
+// getElementbyClassname returns an html collection/array which will contain all the elments of the class
+// console.log(class_element)
+// console.dir(class_element)
+// var header = document.getElementById("header")
+// console.dir(header)
+// console.log(header)
+// console.log(header.innerHTML)
+
+
+// recognising the id's we use # for styling in the css
+// for classes we use .
+
+
+// better way of accessing the elments is by using querySelector
+// i.e we can pass any send any type of tags like class , id or a tag queryselector 
+// will directly identify the element that we are looking for and returns the data
+
+
+// example
+
+var elements = document.querySelector("div") ; // returns the first match of the tag
+console.dir(elements)
+
+// to get all the elements in the html we need to use querySelectorAll
+
+var elements = document.querySelectorAll("div") ; // returns the first match of the tag
+console.dir(elements)
+// returns a nodes list
+// if we want to    query select a class we need to put . and class name
+var elements = document.querySelectorAll(".java_script_class") 
+// similarly for ids we need to use #
+console.log(elements)
+
