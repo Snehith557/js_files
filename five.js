@@ -19,3 +19,6 @@ console.log(master_tag)
 // inner html only returns the text/html data of the node that is being queried
 
 // textContent used to change the text data inside a element run time modification of the elements
+
+
+// 
