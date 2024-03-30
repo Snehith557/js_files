@@ -1,13 +1,29 @@
+<!-- onclick in the button handles the events by doing something in the backend -->
+<!-- basically processing the event -->
+<!-- ondblclick ==> on double click -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href = "style.css" >
 </head>
 <body>
     <!-- <alert>Events</alert> -->
-    <button id = "button"> Hi click the page</button>
+    <!-- <button id = "button" onclick="console.log('button was clicked')"> Hi click the page</button> -->
+    <!-- <button id = "button" onclick="alert('button was clicked')"> Hi click the page</button> -->
+    <!-- <button id = "button" ondblclick="alert('button was clicked')"> Hi click the page</button> -->
+    <button id = "button-elm" > Hi click the page</button>
+    <!-- onclick is an event which should be handled -->
+    
+    <!-- <div id = "smallbox" onmouseover="change_back_ground_color();"> -->
+    <div id ="box-elm" >
+        This is a box item
+    </div>
+    <button id="theme-elm"><i  id = "them"class="fa fa-moon-o" style="font-size:30px"></i></button>
     <script src = "seven.js"></script>
 </body>
 </html>
