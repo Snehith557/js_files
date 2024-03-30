@@ -46,7 +46,7 @@ theme_element.addEventListener("click",(e)=>{
 // say we need to remove some functionality after we have clicked  something
 // example would be after clicking the submit button has to be frozen
 
-
+s
 
 
 
